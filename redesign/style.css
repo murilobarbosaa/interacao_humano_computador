@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #5f0f99;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Categorias */
+.categorias {
+  margin-top: 2rem;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.categorias h2 {
+  color: #5f0f99;
+  margin-bottom: 1rem;
+}
+
+.categorias ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.categorias a {
+  color: #5f0f99;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.categorias a:hover {
+  text-decoration: underline;
+}
+
+/* Busca */
+.search {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.search h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.search input {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #5f0f99;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #4a097a;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  font-size: 0.9rem;
+}
